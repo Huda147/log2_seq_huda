@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module tb_log2_seq;
+module log2_seq_tb;
 
 reg clk;
 reg [7:0] X;
@@ -17,7 +17,7 @@ always #5 clk = ~clk;
 
 // Stimulus
 initial begin
-         $fsdbDumpfile("full_adder.fsdb");
+	$fsdbDumpfile("log2_seq.fsdb");
 	 $fsdbDumpvars();
 
 end
