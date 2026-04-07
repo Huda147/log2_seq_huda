@@ -5,9 +5,12 @@ module log2_seq (
     input [7:0] X,
     output reg [2:0] Y
 );
-
+reg [7:0] X_comb
 reg [2:0] Y_comb;
-
+    
+always @(posedge clk) begin
+    X_comb <= X;
+end
 always @(*) begin
     if (X[7])       Y_comb = 3'd7;
     else if (X[6])  Y_comb = 3'd6;
