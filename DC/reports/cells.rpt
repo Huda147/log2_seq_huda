@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : cell
+Design : log2_seq
+Version: W-2024.09
+Date   : Sun Apr  5 15:39:35 2026
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U13                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U14                       INVX0_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U16                       OR2X1_RVT       saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U17                       INVX1_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U18                       INVX1_RVT       saed32rvt_ss0p7vn40c
+                                                          1.270720  
+U19                       OA221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U20                       AO221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+U21                       OR2X1_RVT       saed32rvt_ss0p7vn40c
+                                                          2.033152  
+U22                       AO221X1_RVT     saed32rvt_ss0p7vn40c
+                                                          3.049728  
+Y_reg[0]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[1]                  DFFX1_RVT       saed32rvt_ss0p7vn40c
+                                                          6.607744  n
+Y_reg[2]                  DFFSSRX1_RVT    saed32rvt_ss0p7vn40c
+                                                          7.116032  n
+--------------------------------------------------------------------------------
+Total 12 cells                                            38.629889
+1

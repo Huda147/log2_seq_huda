@@ -1,0 +1,6 @@
+./outputs/full_adder_final.spef.p1_125.spef for scenarios: 
+	 scenario: func::nom, corner type: late
+
+./outputs/full_adder_final.spef.p2_125.spef for scenarios: 
+	 scenario: func::nom, corner type: early
+
